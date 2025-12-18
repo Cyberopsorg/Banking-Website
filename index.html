@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vault - Modern Banking Demo</title>
+  <meta name="description" content="Simple banking demo with clean hero, auth, and minimal dashboard." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏦</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar" role="banner">
+    <div class="topbar-inner">
+      <div class="brand">🏦 Vault</div>
+      <nav aria-label="Primary">
+        <a class="btn-link" href="#features">Features</a>
+        <a class="btn-link" href="#cta">Get Started</a>
+        <a class="btn-link" href="app.html">App</a>
+      </nav>
+    </div>
+  </header>
+
+  <main role="main">
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-visual" aria-hidden="true">
+          <!-- Minimal inline SVG illustration -->
+          <svg viewBox="0 0 240 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bank card illustration">
+            <defs>
+              <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1">
+                <stop offset="0" stop-color="#eaf3ef" />
+                <stop offset="1" stop-color="#f6f7fb" />
+              </linearGradient>
+            </defs>
+            <rect x="20" y="30" width="200" height="120" rx="12" fill="url(#g1)" stroke="#cfe0d8" />
+            <rect x="36" y="50" width="80" height="14" rx="7" fill="#cfe0d8" />
+            <rect x="36" y="70" width="160" height="10" rx="5" fill="#dfe8e3" />
+            <rect x="36" y="86" width="120" height="10" rx="5" fill="#dfe8e3" />
+            <circle cx="180" cy="54" r="7" fill="#1b4d3e" opacity="0.9" />
+            <circle cx="196" cy="54" r="7" fill="#93c5b3" opacity="0.9" />
+          </svg>
+        </div>
+        <h1>Simple, Fast, Secure.</h1>
+        <p>Modern banking demo focused on essentials. No frills, just the core flow to evaluate UX quickly.</p>
+        <div class="hero-ctas">
+          <a class="btn-primary" href="app.html">Get Started</a>
+          <a class="btn-secondary" href="#features">Features</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <h2>What’s inside</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Lock">
+              <path d="M12 2a4 4 0 0 0-4 4v3H6a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-9a2 2 0 0 0-2-2h-2V6a4 4 0 0 0-4-4zm-2 7V6a2 2 0 1 1 4 0v3h-4z" />
+            </svg>
+          </div>
+          <h3>Authentication</h3>
+          <p>Basic signup and login with local persistence.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Wallet">
+              <path d="M3 7a3 3 0 0 1 3-3h11a2 2 0 0 1 2 2v2h-1a3 3 0 0 0-3 3v2a3 3 0 0 0 3 3h1v2a2 2 0 0 1-2 2H6a3 3 0 0 1-3-3V7zm16 5h-1a1 1 0 0 0 0 2h1a1 1 0 0 0 0-2z" />
+            </svg>
+          </div>
+          <h3>Account</h3>
+          <p>Single account balance with deposit and withdraw.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="List">
+              <path d="M5 6h14v2H5V6zm0 5h14v2H5v-2zm0 5h14v2H5v-2z" />
+            </svg>
+          </div>
+          <h3>Transactions</h3>
+          <p>Recent ledger of deposits and withdrawals.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="cta" class="cta-band">
+      <div class="cta-inner">
+        <h2>Ready to try it?</h2>
+        <p>Start with a fresh signup then test the simple dashboard.</p>
+        <a class="btn-primary" href="app.html">Open The Account</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="footer-inner">
+      <div>© 2025 Vault · Made By Md Shahbaz khan </div>
+      <div><a href="app.html">App</a> · <a href="#features">Features</a></div>
+    </div>
+  </footer>
+</body>
+</html>
